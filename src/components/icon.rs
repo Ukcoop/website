@@ -10,7 +10,7 @@ pub struct IconProps {
 pub fn Icon(props: &IconProps) -> Html {
     return html! {
         <div class="">
-            <img height="32" width="32" src={format!("https://cdn.simpleicons.org/{}/{}", props.slug, props.color)} />
+            <img height="38" width="38" src={format!("https://cdn.simpleicons.org/{}/{}", props.slug, props.color)} />
         </div>
     };
 }

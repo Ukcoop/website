@@ -8,7 +8,7 @@ pub fn Socials() -> Html {
         <div class="">
             <h1 class="text-5xl lg:text-4xl mx-5 py-4">{"Socials"}</h1>
             <div class="h-0 border-2 border-slate-600 mx-5 mb-2"></div>
-            <div class="flex flex-wrap px-4 py-2">
+            <div class="lg:flex flex-wrap px-4 mr-4 py-2">
                 <SocialLink social_type={SocialType::Email} text="coop@alexandercoop.com" href="mailto:coop@alexandercoop.com"/>
                 <SocialLink social_type={SocialType::GitHub} text="@Ukcoop" href="https://github.com/Ukcoop"/>
                 <SocialLink social_type={SocialType::YouTube} text="@Ukcoop562" href="https://www.youtube.com/@Ukcoop562"/>
